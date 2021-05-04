@@ -8,13 +8,13 @@ body {
 
 /* Your code goes here */
 .header-wrapper {
-  background: url("../img/header-bg.jpg") center/cover no-repeat fixed;
+  background: url('../img/header-bg.jpg') center/cover no-repeat fixed;
 }
 
 .navbar {
   padding-right: 12rem;
   padding-left: 12rem;
-  background: url("../img/header-bg.jpg") center/cover no-repeat fixed;
+  background: url('../img/header-bg.jpg') center/cover no-repeat fixed;
 }
 
 .intro {
@@ -67,4 +67,10 @@ body {
   bottom: 0;
   width: 60%;
   height: 0;
+}
+
+.footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: repeat-y;
+  background-position: center;
 }
