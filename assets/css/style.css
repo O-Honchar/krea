@@ -15,6 +15,21 @@ body {
   position: relative;
 }
 
+.card-title-fsize {
+  font-size: 2.2rem;
+}
+
+.card-text-fsize {
+  font-size: 1.23rem;
+}
+
+.services-button {
+  background-image: url(../img/touch-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1.5rem;
+}
+
 .heading-underline::after {
   content: '';
   position: absolute;
