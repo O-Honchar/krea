@@ -6,3 +6,21 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 /* Your code goes here */
+
+.outline {
+  outline: 1px solid red;
+}
+
+.heading-underline {
+  position: relative;
+}
+
+.heading-underline::after {
+  content: '';
+  position: absolute;
+  border-top: 3px solid #555;
+  left: 20%;
+  bottom: 0;
+  width: 60%;
+  height: 0;
+}
