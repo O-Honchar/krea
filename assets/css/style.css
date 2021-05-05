@@ -69,8 +69,62 @@ body {
   height: 0;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 22px;
+  height: 60px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../img/slider-prev-arrow.png');
+}
+
+.carousel-control-next-icon {
+  background-image: url('../img/slider-next-arrow.png');
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #62436f;
+}
+
+.carousel-indicators .active {
+  background-color: #c0b4c5;
+}
+
+.references-card-body {
+  padding: 1.5rem 4.2rem;
+}
+
+.references-title-fs {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.references-text-fs {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.ref-img-bg {
+  position: relative;
+}
+
+.ref-img-bg::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60%;
+  height: 60%;
+  background-image: url('../img/references-image-bg.png');
+}
+
 .footer {
-  background-image: url(../img/footer-bg.jpg);
-  background-repeat: repeat-y;
-  background-position: center;
+  background: url(../img/footer-bg.jpg) center/cover no-repeat fixed;
 }
